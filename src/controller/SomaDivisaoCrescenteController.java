@@ -19,6 +19,7 @@ public class SomaDivisaoCrescenteController {
 		}
 		// Resolução dos passos, diminuindo em 1 a função recursiva, e a adição
 		// de double para garantir o cálculo da divisão com ponto flutuante.
+		// Empilhando
 		else {
 			return ((double) 1 / base) + somatoria(base - 1);
 		}
